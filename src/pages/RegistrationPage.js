@@ -7,7 +7,8 @@ import { useDispatch, useSelector } from "react-redux";
 const Registeration = () => {
   const dispatch = useDispatch();
   const navigate = useNavigate();
-  const { auth } = useSelector((state) => state);
+  const { auth } = useSelector((state) => state.user);
+
   useEffect(() => {
     if (auth) {
       navigate("/gallery");
