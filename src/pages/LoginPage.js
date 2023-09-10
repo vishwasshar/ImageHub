@@ -87,9 +87,12 @@ const Login = () => {
           >
             Submit
           </button>
-          <Link to="/signup" className="text-black">
-            <h5>Don’t Have An Account ? Sign Up</h5>
-          </Link>
+          <div className="flex justify-center">
+            <h5>Don’t Have An Account ? </h5>
+            <Link to="/signup" className="text-black">
+              <h5 className="font-bold"> Sign Up</h5>
+            </Link>
+          </div>
         </div>
         <div className="text-center"></div>
       </form>
