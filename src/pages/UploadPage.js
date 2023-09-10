@@ -25,11 +25,16 @@ const UploadPage = () => {
       return alert("Please fill all fields");
     setDisableSubmit(true);
     try {
-      let formData = new FormData();
-      await formData.append("img", img);
-      await formData.append("title", value.title);
-      await formData.append("description", value.description);
+      // let formData = new FormData();
+      // await formData.append("img", img);
+      // await formData.append("title", value.title);
+      // await formData.append("description", value.description);
 
+      const formData = {
+        img: img,
+        title: value.title,
+        description: value.description,
+      };
       const submit = await fetch(`${process.env.REACT_APP_API_URL}img/submit`, {
         method: "POST",
         headers: {
@@ -37,6 +42,7 @@ const UploadPage = () => {
         },
         body: formData,
       });
+      console.log(submit);
       const submitData = await submit.json();
       if (submitData) {
         navigate("/gallery");
