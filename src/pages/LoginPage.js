@@ -89,7 +89,7 @@ const Login = () => {
           </button>
           <div className="flex justify-center">
             <h5>Don’t Have An Account ? </h5>
-            <Link to="/signup" className="text-black">
+            <Link to="/signup" className="text-black px-1">
               <h5 className="font-bold"> Sign Up</h5>
             </Link>
           </div>

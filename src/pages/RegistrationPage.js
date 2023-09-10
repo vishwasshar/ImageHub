@@ -100,9 +100,9 @@ const Registeration = () => {
               Submit
             </button>
             <div className="flex justify-center">
-              <h5>Already Have An Account ?</h5>
+              <h5>Already Have An Account ? </h5>
               <Link to="/login" className="text-black">
-                <h5 className="font-bold"> Login</h5>
+                 <h5 className="font-bold px-1"> Login</h5>
               </Link>
             </div>
           </div>
