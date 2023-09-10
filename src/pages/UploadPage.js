@@ -37,7 +37,6 @@ const UploadPage = () => {
         },
         body: formData,
       });
-      console.log(submit);
       const submitData = await submit.json();
       if (submitData) {
         navigate("/gallery");
