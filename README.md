@@ -1,9 +1,5 @@
 # ImageHub
 
-![ImageHub](https://vi-imagehub.netlify.app/imagehub-banner.png)
-
-[![Netlify Status](https://api.netlify.com/api/v1/badges/your-badge/status)](https://app.netlify.com/sites/vi-imagehub/deploys)
-
 **Live Demo**: [https://vi-imagehub.netlify.app/](https://vi-imagehub.netlify.app/)
 
 ## Description
