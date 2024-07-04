@@ -74,3 +74,12 @@ The project is deployed on **Netlify** for quick and easy hosting.
 ## Contribution
 
 Contributions are welcome! Please feel free to submit a pull request or open an issue for suggestions.
+
+## Contact Information
+
+For any questions, feedback, or contributions, feel free to reach out to me via:
+
+- **Email**: [vishwassharma3287@gmail.com](mailto:vishwassharma3287@gmail.com)
+- **LinkedIn**: [Vishwas Sharma](https://www.linkedin.com/in/vishwassharma3287/)
+
+I welcome your input and look forward to connecting with you!
