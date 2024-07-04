@@ -1,70 +1,80 @@
-# Getting Started with Create React App
+# ImageHub
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![ImageHub](https://vi-imagehub.netlify.app/imagehub-banner.png)
 
-## Available Scripts
+[![Netlify Status](https://api.netlify.com/api/v1/badges/your-badge/status)](https://app.netlify.com/sites/vi-imagehub/deploys)
 
-In the project directory, you can run:
+**Live Demo**: [https://vi-imagehub.netlify.app/](https://vi-imagehub.netlify.app/)
 
-### `npm start`
+## Description
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+**ImageHub** is a dynamic web application built with the MERN stack to offer seamless image management. This project was designed to enhance my skills in **React.js**, **Tailwind CSS**, and **Redux Persist**, while also gaining hands-on experience in hosting React applications on **Netlify**.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Features
 
-### `npm test`
+- **User Authentication**: Secure login and signup functionality using JWT.
+- **Image Upload**: Users can upload images and manage their gallery.
+- **Image Gallery**: Display of uploaded images with view counts.
+- **Responsive Design**: Built with Tailwind CSS for a modern, responsive UI.
+- **State Management**: Efficient state handling using Redux Persist.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Technologies Used
 
-### `npm run build`
+### Frontend
+- **React.js**: Component-based architecture for building the user interface.
+- **Tailwind CSS**: Utility-first CSS framework for styling.
+- **Redux Persist**: Persist and rehydrate Redux state across sessions.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Backend
+- **Node.js**: JavaScript runtime for building server-side applications.
+- **Express.js**: Web application framework for Node.js.
+- **Bcrypt**: Secure password hashing.
+- **JWT**: JSON Web Tokens for secure user authentication.
+- **Cloudinary**: Image hosting and management service.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+For backend implementation, visit the [ImageHub Backend Repository](https://github.com/vishwasshar/ImageHub-Backend).
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Installation
 
-### `npm run eject`
+1. **Clone the repository**:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+    ```bash
+    git clone https://github.com/vishwasshar/ImageHub.git
+    ```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+2. **Navigate to the project directory**:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+    ```bash
+    cd ImageHub
+    ```
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+3. **Install dependencies**:
 
-## Learn More
+    ```bash
+    npm install
+    ```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+4. **Run the development server**:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+    ```bash
+    npm start
+    ```
 
-### Code Splitting
+The application will be available at `http://localhost:3000`.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## Usage
 
-### Analyzing the Bundle Size
+1. **Sign Up** or **Log In** to your account.
+2. **Upload images** to your personal gallery.
+3. **View, edit, or delete** your images as needed.
+4. Track the number of views each image receives.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## Deployment
 
-### Making a Progressive Web App
+The project is deployed on **Netlify** for quick and easy hosting. 
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+**Live Demo**: [https://vi-imagehub.netlify.app/](https://vi-imagehub.netlify.app/)
 
-### Advanced Configuration
+## Contribution
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Contributions are welcome! Please feel free to submit a pull request or open an issue for suggestions.
